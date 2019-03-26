@@ -3,14 +3,14 @@
    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-core-parent</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-core-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.thorntail.migrate</groupId>
-  <artifactId>thorntail-migrate</artifactId>
+  <groupId>af.thumbtack.migrate</groupId>
+  <artifactId>thumbtack-migrate</artifactId>
   <packaging>jar</packaging>
 
   <name>Migration Tool</name>
@@ -23,8 +23,8 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <configuration>
           <format>jar</format>
@@ -43,8 +43,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-kernel</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-kernel</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.maven</groupId>

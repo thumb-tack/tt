@@ -4,26 +4,26 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-core-parent</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-core-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>thorntail-jpa-support</artifactId>
+  <artifactId>thumbtack-jpa-support</artifactId>
   <name>JPA-Support</name>
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-kernel</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-kernel</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jdbc</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jdbc</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jta</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jta</artifactId>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>

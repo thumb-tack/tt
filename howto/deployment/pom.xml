@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.thorntail.howto</groupId>
-  <artifactId>thorntail-howto-deployment</artifactId>
+  <groupId>af.thumbtack.howto</groupId>
+  <artifactId>thumbtack-howto-deployment</artifactId>
   <version>4.0.0-SNAPSHOT</version>
 
   <packaging>war</packaging>
@@ -12,9 +12,9 @@
   <name>HOWTO: Getting Started</name>
 
   <scm>
-    <connection>scm:git:git@github.com:thorntail/thorntail.git</connection>
-    <developerConnection>scm:git:git@github.com:thorntail/thorntail.git</developerConnection>
-    <url>https://github.com/thorntail/thorntail</url>
+    <connection>scm:git:git@github.com:thumb-tack/tt.git</connection>
+    <developerConnection>scm:git:git@github.com:thumb-tack/tt.git</developerConnection>
+    <url>https://github.com/thumb-tack/tt</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -38,8 +38,8 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-bom</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-bom</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
@@ -49,16 +49,16 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jaxrs</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jaxrs</artifactId>
     </dependency>
   </dependencies>
 
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <executions>
           <execution>

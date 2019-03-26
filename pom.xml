@@ -3,18 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.thorntail</groupId>
-  <artifactId>thorntail-root</artifactId>
+  <groupId>af.thumbtack</groupId>
+  <artifactId>thumbtack-root</artifactId>
   <version>4.0.0-SNAPSHOT</version>
 
-  <name>Thorntail Root</name>
+  <name>ThumbTack Root</name>
 
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:thorntail/thorntail.git</connection>
-    <developerConnection>scm:git:git@github.com:thorntail/thorntail.git</developerConnection>
-    <url>https://github.com/thorntail/thorntail</url>
+    <connection>scm:git:git@github.com:thumb-tack/tt.git</connection>
+    <developerConnection>scm:git:git@github.com:thumb-tack/tt.git</developerConnection>
+    <url>https://github.com/thumb-tack/tt</url>
     <tag>HEAD</tag>
   </scm>
 

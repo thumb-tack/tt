@@ -8,7 +8,7 @@
   <version>${version}</version>
   <packaging>jar</packaging>
 
-  <name>My JAX-RS Thorntail App</name>
+  <name>My JAX-RS ThumbTack App</name>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -19,9 +19,9 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-bom</artifactId>
-        <version>${thorntailVersion}</version>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-bom</artifactId>
+        <version>${thumbtackVersion}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -30,21 +30,21 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jaxrs</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jaxrs</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-testing</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-testing</artifactId>
     </dependency>
   </dependencies>
 
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
-        <version>${thorntailVersion}</version>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
+        <version>${thumbtackVersion}</version>
         <executions>
           <execution>
             <phase>package</phase>

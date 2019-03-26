@@ -4,23 +4,23 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail.testsuite</groupId>
-    <artifactId>thorntail-testsuite-simple-parent</artifactId>
+    <groupId>af.thumbtack.testsuite</groupId>
+    <artifactId>thumbtack-testsuite-simple-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>thorntail-testsuite-jpa-wrapping</artifactId>
+  <artifactId>thumbtack-testsuite-jpa-wrapping</artifactId>
   <name>Testsuite: JPA Wrapping</name>
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-servlet</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-servlet</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jpa</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jpa</artifactId>
     </dependency>
     <dependency>
       <groupId>com.h2database</groupId>
@@ -31,8 +31,8 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>

@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.thorntail.howto</groupId>
-  <artifactId>thorntail-howto-devtools</artifactId>
+  <groupId>af.thumbtack.howto</groupId>
+  <artifactId>thumbtack-howto-devtools</artifactId>
   <version>4.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -13,8 +13,8 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-bom</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-bom</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
@@ -24,24 +24,24 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jaxrs</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jaxrs</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-testing</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-testing</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-devtools</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-devtools</artifactId>
     </dependency>
   </dependencies>
 
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <executions>
           <execution>

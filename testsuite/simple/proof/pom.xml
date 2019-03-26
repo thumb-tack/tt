@@ -4,20 +4,20 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail.testsuite</groupId>
-    <artifactId>thorntail-testsuite-simple-parent</artifactId>
+    <groupId>af.thumbtack.testsuite</groupId>
+    <artifactId>thumbtack-testsuite-simple-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>thorntail-testsuite-proof</artifactId>
+  <artifactId>thumbtack-testsuite-proof</artifactId>
   <name>Testsuite: Proof of Concept</name>
 
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
         <configuration>
           <format>dir</format>
           <mode>thin</mode>
@@ -28,29 +28,29 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-health</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-health</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-metrics</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-metrics</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jaxrs</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jaxrs</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jpa</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-security</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-security</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-devtools</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-devtools</artifactId>
     </dependency>
 
     <dependency>

@@ -4,25 +4,25 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-root</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-root</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>io.thorntail</groupId>
-  <artifactId>thorntail-core-parent</artifactId>
+  <groupId>af.thumbtack</groupId>
+  <artifactId>thumbtack-core-parent</artifactId>
 <!--
   <version>1.0.0-SNAPSHOT</version>
 -->
 
-  <name>Thorntail Core Parent</name>
+  <name>ThumbTack Core Parent</name>
 
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:thorntail/thorntail.git</connection>
-    <developerConnection>scm:git:git@github.com:thorntail/thorntail.git</developerConnection>
-    <url>https://github.com/thorntail/thorntail</url>
+    <connection>scm:git:git@github.com:thumb-tack/tt.git</connection>
+    <developerConnection>scm:git:git@github.com:thumb-tack/tt.git</developerConnection>
+    <url>https://github.com/thumb-tack/tt</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -63,8 +63,8 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-bom</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-bom</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
@@ -211,8 +211,8 @@
           <doclint>none</doclint>
           <outputDirectory>target/apidocs</outputDirectory>
           <reportOutputDirectory>target/apidocs</reportOutputDirectory>
-          <windowtitle>Thorntail Public API - ${project.version}</windowtitle>
-          <doctitle>Thorntail Public API - ${project.version}</doctitle>
+          <windowtitle>ThumbTack Public API - ${project.version}</windowtitle>
+          <doctitle>ThumbTack Public API - ${project.version}</doctitle>
         </configuration>
         <executions>
           <execution>

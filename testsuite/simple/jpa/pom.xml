@@ -4,32 +4,32 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail.testsuite</groupId>
-    <artifactId>thorntail-testsuite-simple-parent</artifactId>
+    <groupId>af.thumbtack.testsuite</groupId>
+    <artifactId>thumbtack-testsuite-simple-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>thorntail-testsuite-jpa</artifactId>
+  <artifactId>thumbtack-testsuite-jpa</artifactId>
   <name>Testsuite: JPA</name>
 
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jpa</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-servlet</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-servlet</artifactId>
     </dependency>
 
     <dependency>

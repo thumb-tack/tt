@@ -4,19 +4,19 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail.archetypes</groupId>
-    <artifactId>thorntail-archetypes-parent</artifactId>
+    <groupId>af.thumbtack.archetypes</groupId>
+    <artifactId>thumbtack-archetypes-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>thorntail-jaxrs-archetype</artifactId>
+  <artifactId>thumbtack-jaxrs-archetype</artifactId>
   <name>Archetype: JAX-RS</name>
   <packaging>maven-archetype</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:thorntail/thorntail.git</connection>
-    <developerConnection>scm:git:git@github.com:thorntail/thorntail.git</developerConnection>
-    <url>https://github.com/thorntail/thorntail</url>
+    <connection>scm:git:git@github.com:thumb-tack/tt.git</connection>
+    <developerConnection>scm:git:git@github.com:thumb-tack/tt.git</developerConnection>
+    <url>https://github.com/thumb-tack/tt</url>
     <tag>HEAD</tag>
   </scm>
 
