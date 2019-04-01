@@ -4,23 +4,23 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-core-parent</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-core-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>thorntail-jaxrs</artifactId>
+  <artifactId>thumbtack-jaxrs</artifactId>
   <name>JAX-RS</name>
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-kernel</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-kernel</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-servlet</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-servlet</artifactId>
     </dependency>
 
     <dependency>

@@ -8,13 +8,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-root</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-root</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>io.thorntail</groupId>
-  <artifactId>thorntail-plugins</artifactId>
+  <groupId>af.thumbtack</groupId>
+  <artifactId>thumbtack-plugins</artifactId>
 
   <name>Thorntail Plugins Parent</name>
   <description>Thorntail Plugins Parent</description>
@@ -22,9 +22,9 @@
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:thorntail/thorntail.git</connection>
-    <developerConnection>scm:git:git@github.com:thorntail/thorntail.git</developerConnection>
-    <url>https://github.com/thorntail/thorntail</url>
+    <connection>scm:git:git@github.com:thumb-tack/tt.git</connection>
+    <developerConnection>scm:git:git@github.com:thumb-tack/tt.git</developerConnection>
+    <url>https://github.com/thumb-tack/tt</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -54,8 +54,8 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-plugins-common</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-plugins-common</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
     </dependencies>

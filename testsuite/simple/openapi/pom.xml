@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail.testsuite</groupId>
-    <artifactId>thorntail-testsuite-simple-parent</artifactId>
+    <groupId>af.thumbtack.testsuite</groupId>
+    <artifactId>thumbtack-testsuite-simple-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>thorntail-testsuite-openapi</artifactId>
+  <artifactId>thumbtack-testsuite-openapi</artifactId>
   <name>Testsuite: OpenApi</name>
   <description>Additional OpenApi tests, suplementing the TCK</description>
 
@@ -25,12 +25,12 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-openapi</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-openapi</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-testing-arquillian</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-testing-arquillian</artifactId>
     </dependency>
 
     <dependency>

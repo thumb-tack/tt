@@ -4,21 +4,21 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-root</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-root</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>thorntail-bom</artifactId>
+  <artifactId>thumbtack-bom</artifactId>
 
-  <name>Thorntail BOM</name>
+  <name>ThumbTack BOM</name>
 
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:thorntail/thorntail.git</connection>
-    <developerConnection>scm:git:git@github.com:thorntail/thorntail.git</developerConnection>
-    <url>https://github.com/thorntail/thorntail</url>
+    <connection>scm:git:git@github.com:thumb-tack/tt.git</connection>
+    <developerConnection>scm:git:git@github.com:thumb-tack/tt.git</developerConnection>
+    <url>https://github.com/thumb-tack/tt</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -565,149 +565,149 @@
       </dependency>
 
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-kernel</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-kernel</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-bean-validation</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-bean-validation</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-datasources</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-datasources</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-health</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-health</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jaxrs</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jaxrs</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jca</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jca</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jdbc</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jdbc</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jndi</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jndi</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jms</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jms</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jms-artemis</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jms-artemis</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jpa-support</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jpa-support</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jpa</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jpa</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-hibernate-search</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-hibernate-search</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-ogm</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-ogm</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jsonp</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jsonp</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jta</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jta</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-jwt-auth</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-jwt-auth</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-faulttolerance</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-faulttolerance</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-metrics</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-metrics</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-openapi</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-openapi</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-security</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-security</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-security-keycloak</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-security-keycloak</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-servlet</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-servlet</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-vertx</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-vertx</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-vertx-web</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-vertx-web</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-vertx-jca</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-vertx-jca</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-websockets</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-websockets</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-restclient</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-restclient</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
 
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-devtools</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-devtools</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
 
@@ -831,32 +831,32 @@
       </dependency>
 
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-testing</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-testing</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-testing-arquillian</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-testing-arquillian</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-testutils-async</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-testutils-async</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-testutils-opentracing</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-testutils-opentracing</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-testutils-opentracing-jaeger</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-testutils-opentracing-jaeger</artifactId>
         <version>4.0.0-SNAPSHOT</version>
       </dependency>
 

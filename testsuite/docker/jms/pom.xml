@@ -4,20 +4,20 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail.testsuite</groupId>
-    <artifactId>thorntail-testsuite-docker-parent</artifactId>
+    <groupId>af.thumbtack.testsuite</groupId>
+    <artifactId>thumbtack-testsuite-docker-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>thorntail-testsuite-jms</artifactId>
+  <artifactId>thumbtack-testsuite-jms</artifactId>
   <name>Testsuite: JMS</name>
 
   <build>
     <plugins>
       <plugin>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-maven-plugin</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-maven-plugin</artifactId>
       </plugin>
       <plugin>
         <groupId>io.fabric8</groupId>
@@ -54,12 +54,12 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-jms-artemis</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-jms-artemis</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-testutils-async</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-testutils-async</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>

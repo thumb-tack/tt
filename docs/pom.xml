@@ -4,19 +4,19 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-root</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-root</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>thorntail-docs</artifactId>
+  <artifactId>thumbtack-docs</artifactId>
   <name>Documentation</name>
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:thorntail/thorntail.git</connection>
-    <developerConnection>scm:git:git@github.com:thorntail/thorntail.git</developerConnection>
-    <url>https://github.com/thorntail/thorntail</url>
+    <connection>scm:git:git@github.com:thumb-tack/tt.git</connection>
+    <developerConnection>scm:git:git@github.com:af.thumbtack.git</developerConnection>
+    <url>https://github.com/thumb-tack/tt</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -60,9 +60,9 @@
           <attributes>
             <docinfo>shared</docinfo>
             <groupId>${project.groupId}</groupId>
-            <project_name>Thorntail</project_name>
-            <project_key>thorntail</project_key>
-            <PROJECT_ENV>THORNTAIL</PROJECT_ENV>
+            <project_name>ThumbTack</project_name>
+            <project_key>thumbtack</project_key>
+            <PROJECT_ENV>THUMBTACK</PROJECT_ENV>
             <version>${project.version}</version>
           </attributes>
           <doctype>book</doctype>

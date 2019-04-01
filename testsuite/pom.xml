@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-root</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-root</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>io.thorntail.testsuite</groupId>
-  <artifactId>thorntail-testsuite-parent</artifactId>
+  <groupId>af.thumbtack.testsuite</groupId>
+  <artifactId>thumbtack-testsuite-parent</artifactId>
 
   <name>Testsuite Parent</name>
 
@@ -29,8 +29,8 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.thorntail</groupId>
-        <artifactId>thorntail-bom</artifactId>
+        <groupId>af.thumbtack</groupId>
+        <artifactId>thumbtack-bom</artifactId>
         <version>4.0.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
@@ -40,8 +40,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.thorntail</groupId>
-      <artifactId>thorntail-testing</artifactId>
+      <groupId>af.thumbtack</groupId>
+      <artifactId>thumbtack-testing</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -112,8 +112,8 @@
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>io.thorntail</groupId>
-          <artifactId>thorntail-maven-plugin</artifactId>
+          <groupId>af.thumbtack</groupId>
+          <artifactId>thumbtack-maven-plugin</artifactId>
           <version>4.0.0-SNAPSHOT</version>
         </plugin>
         <plugin>

@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.thorntail</groupId>
-    <artifactId>thorntail-root</artifactId>
+    <groupId>af.thumbtack</groupId>
+    <artifactId>thumbtack-root</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>io.thorntail.howto</groupId>
-  <artifactId>thorntail-howto-parent</artifactId>
+  <groupId>af.thumbtack.howto</groupId>
+  <artifactId>thumbtack-howto-parent</artifactId>
 
   <name>HOWTO: Parent</name>
 
