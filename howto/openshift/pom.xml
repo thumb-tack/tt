@@ -5,7 +5,7 @@
 
   <groupId>af.thumbtack.howto</groupId>
   <artifactId>thumbtack-howto-openshift</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <name>HOWTO: OpenShift</name>
 
@@ -38,7 +38,7 @@
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-bom</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>

@@ -6,7 +6,7 @@
   <parent>
     <groupId>af.thumbtack</groupId>
     <artifactId>thumbtack-core-parent</artifactId>
-    <version>4.0.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>thumbtack-testutils-opentracing</artifactId>

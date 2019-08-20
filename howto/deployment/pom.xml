@@ -5,7 +5,7 @@
 
   <groupId>af.thumbtack.howto</groupId>
   <artifactId>thumbtack-howto-deployment</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <packaging>war</packaging>
 
@@ -40,7 +40,7 @@
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-bom</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -59,7 +59,7 @@
       <plugin>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-maven-plugin</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <executions>
           <execution>
             <phase>package</phase>

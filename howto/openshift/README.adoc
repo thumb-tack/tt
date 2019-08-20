@@ -24,7 +24,7 @@ eval $(minishift docker-env)
 
 The build uses the `fabric8-docker-plugin` to build and push an image to the internal OpenShift image repository.
 
-The image is tagged `latest` and `4.0.0-SNAPSHOT`.
+The image is tagged `latest` and `1.0.0-SNAPSHOT`.
 
 ----
 mvn install
@@ -32,10 +32,10 @@ mvn install
 
 == Deploy to OpenShift
 
-Creat a new application using the image name and the `4.0.0-SNAPSHOT` tag.
+Creat a new application using the image name and the `1.0.0-SNAPSHOT` tag.
 
 ----
-oc new-app thorntail/myapp:4.0.0-SNAPSHOT
+oc new-app thorntail/myapp:1.0.0-SNAPSHOT
 ----
 
 == Expose your application

@@ -1,14 +1,14 @@
-== Welcome to Thorntail
+== Welcome to ThumbTack
 
-Greetings and welcome to Thorntail, the Java framework that combines the Eclipse Microprofile with your favorite Java libraries for a simple yet powerful development experience. 
-Thorntail assumes one "application" per Thorntail instance. There is a https://docs.thorntail.io/4.0.0-SNAPSHOT/#flat-classpath[flat classpath], to add a Java library you just add it to your Maven pom.xml and you are good to go.
+Greetings and welcome to ThumbTack, the Java framework that combines the Eclipse Microprofile with your favorite Java libraries for a simple yet powerful development experience.
+ThumbTack assumes one "application" per ThumbTack instance. There is a https://docs.thumbtack.af/1.0.0-SNAPSHOT/#flat-classpath[flat classpath], to add a Java library you just add it to your Maven pom.xml and you are good to go.
 
 === If you are coming from an Application Server background
 
-Developing for Thorntail will be different than you are used to, primarily, there is no "Application Server"
-that you deploy your application to. When you write a Thorntail application you need to add a _main method_
-just like you used to do in your Java applications. On startup, Thorntail will look for this _main method_ and
-execute whatever is inside that method. 
+Developing for ThumbTack will be different than you are used to, primarily, there is no "Application Server"
+that you deploy your application to. When you write a ThumbTack application you need to add a _main method_
+just like you used to do in your Java applications. On startup, ThumbTack will look for this _main method_ and
+execute whatever is inside that method.
 
 Because of the flat classpath there is no need to bundle your dependencies into a special directory of your
 application or add them to a special directory in your application server. All you need to do to add a
@@ -23,5 +23,5 @@ of our application.
 To get started we create a pom.xml which only really needs two elements beyond the
 standard metadata.
 
-* https://docs.thorntail.io/4.0.0-SNAPSHOT/#bom-maven[The Thorntail BOM]
-* If we want code completion in our editor, the dependency on `thorntail-jaxrs` artifact
+* https://docs.thumbtack.af/1.0.0-SNAPSHOT/#bom-maven[The ThumbTack BOM]
+* If we want code completion in our editor, the dependency on `thumbtack-jaxrs` artifact
