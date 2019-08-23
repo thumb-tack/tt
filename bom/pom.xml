@@ -6,7 +6,7 @@
   <parent>
     <groupId>af.thumbtack</groupId>
     <artifactId>thumbtack-root</artifactId>
-    <version>4.0.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>thumbtack-bom</artifactId>
@@ -567,148 +567,148 @@
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-kernel</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-bean-validation</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-datasources</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-health</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jaxrs</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jca</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jdbc</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jndi</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jms</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jms-artemis</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jpa-support</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jpa</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-hibernate-search</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-ogm</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jsonp</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jta</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-jwt-auth</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-faulttolerance</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-metrics</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-openapi</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-security</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-security-keycloak</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-servlet</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-vertx</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-vertx-web</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-vertx-jca</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-websockets</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-restclient</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
 
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-devtools</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
 
 
@@ -833,31 +833,31 @@
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-testing</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-testing-arquillian</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-testutils-async</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-testutils-opentracing</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>af.thumbtack</groupId>
         <artifactId>thumbtack-testutils-opentracing-jaeger</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
 
       <dependency>
