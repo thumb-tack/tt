@@ -111,7 +111,7 @@
 
     <version.arquillian-core>1.2.1.Final</version.arquillian-core>
     <version.assertj>3.10.0</version.assertj>
-    <version.junit>4.12</version.junit>
+    <version.junit>4.13.1</version.junit>
     <version.testng>6.9.9</version.testng>
     <version.rest-assured>3.0.6</version.rest-assured>
     <version.json-smart>2.3</version.json-smart>
