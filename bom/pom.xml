@@ -89,7 +89,7 @@
     <version.fakereplace>1.0.0.Alpha6</version.fakereplace>
 
     <version.guava>20.0</version.guava>
-    <version.commons-io>2.6</version.commons-io>
+    <version.commons-io>2.7</version.commons-io>
     <version.commons-logging>1.2</version.commons-logging>
     <version.netty>4.1.24.Final</version.netty>
 
