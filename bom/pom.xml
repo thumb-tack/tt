@@ -81,7 +81,7 @@
     <version.glassfish-json>1.1.2</version.glassfish-json>
     <version.glassfish-el>3.0.1-b10</version.glassfish-el>
 
-    <version.h2>1.4.187</version.h2>
+    <version.h2>2.0.206</version.h2>
     <version.mysql>5.1.39</version.mysql>
 
     <version.jackson>2.9.4</version.jackson>
