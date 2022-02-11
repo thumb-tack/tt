@@ -71,7 +71,7 @@
     <version.hdrHistogram>2.1.9</version.hdrHistogram>
 
     <version.jboss-transaction-spi>7.6.0.Final</version.jboss-transaction-spi>
-    <version.vertx>3.5.2</version.vertx>
+    <version.vertx>3.9.4</version.vertx>
     <version.jboss-threads>2.1.1.Final</version.jboss-threads>
 
     <version.javax-annotation>1.0.1.Final</version.javax-annotation>
