@@ -114,7 +114,7 @@
     <version.junit>4.12</version.junit>
     <version.testng>6.9.9</version.testng>
     <version.rest-assured>3.0.6</version.rest-assured>
-    <version.json-smart>2.3</version.json-smart>
+    <version.json-smart>2.4.5</version.json-smart>
     <version.maven>3.2.5</version.maven>
     <version.maven-compiler-plugin>3.7.0</version.maven-compiler-plugin>
     <version.maven-failsafe-plugin>2.20.1</version.maven-failsafe-plugin>
