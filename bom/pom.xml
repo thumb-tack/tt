@@ -41,7 +41,7 @@
 
   <properties>
     <version.weld>3.0.3.Final</version.weld>
-    <version.snakeyaml>1.19</version.snakeyaml>
+    <version.snakeyaml>1.31</version.snakeyaml>
 
     <version.arjuna>5.7.1.Final</version.arjuna>
     <version.hibernate>5.2.16.Final</version.hibernate>
