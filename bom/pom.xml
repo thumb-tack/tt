@@ -44,7 +44,7 @@
     <version.snakeyaml>1.19</version.snakeyaml>
 
     <version.arjuna>5.7.1.Final</version.arjuna>
-    <version.hibernate>5.2.16.Final</version.hibernate>
+    <version.hibernate>5.3.20.Final</version.hibernate>
     <version.hibernate-ogm>5.3.1.Final</version.hibernate-ogm>
     <version.hibernate-validator>6.0.10.Final</version.hibernate-validator>
     <version.hibernate-search>5.9.0.Final</version.hibernate-search>
